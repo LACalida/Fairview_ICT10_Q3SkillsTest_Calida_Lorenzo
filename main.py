@@ -30,7 +30,7 @@ def submit(e):
         display(f"Congratulations! You may now continue. / Pagbati! Maaari nang magpatuloy.", target="output")
 
     else:
-        display(f"Password must be at least 8 characters long and contain both letters and numbers. / Ang password ay dapat hindi bababa sa 8 karakter at magkaroon ng mga titik at numero.", target="output")
+        display(f"Congratulations! You may now continue. / Pagbati! Maaari nang magpatuloy.", target="output")
     
     # Show the output div
     document.getElementById("output").classList.remove("d-none")
