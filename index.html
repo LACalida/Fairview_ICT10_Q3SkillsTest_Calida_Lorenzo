@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Creation Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+  <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <style>
+        body {
+            background: #ffffff;
+            font-family: Gill Sans;
+        }
+        .card {
+            background: #6389ea61;
+            border-left: 4px solid #020330;
+        }
+        h1 {
+            color: #060c34;
+            font-weight: 700;
+            font-family: Gill Sans;
+        }
+        .btn-custom {
+            background: #000b5e;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="p-5">
+    <div class="container">
+
+        <h1 class="text-center mb-4">Create Account</h1>
+        <p class="text-center mb-4">Gumawa ng Account</p>
+        <hr>
+
+        <hr>
+        <form class="card p-5">
+            <div class="mb-3">
+                <i class="fa-solid fa-user"></i>
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter your username / Ilagay ang iyong username">
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pw" placeholder="Enter your password / Ilagay ang iyong password">
+            </div>
+
+    <button class="btn btn-custom w-100" py-click="submit" type="submit">Submit / Isumite</button>
+</form>
+
+<div class="card p-4 mt-4">
+    <pre id="output" style="font-size: 15px;"></pre>
+
+
+</div>
+
+    </div>
+
+    <script type="py" src="main.py"></script>
+  </div>
+</body>
+</html>
